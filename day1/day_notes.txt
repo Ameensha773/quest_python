@@ -1,1 +1,161 @@
+floor() It removes/truncates the decimal part if any.
+ 
+round() If the decimal part is 0.5 or more then next integer number is returned, else the decimal part is truncated.
+ 
+ciel() Returns the next integer number if the decimal part of the number is anything other than .0
+So ciel(7.000001) is 8.
+
+
+[3:09 PM] Nithin Neelakanta Rao
+In Pallakkad NSS college:
+
+The college every year filicitates a topper and only one and always.
+ 
+Assume, 4 students got the top score 97. Now the college is in confusion what to do! Because there is no single topper.
+
+So they sent to re-correction and gave these instructions to the evaluator:
+
+1. If you find any grammer mistake (missing punctuations) or scratches done or not a good explanation, etc then you can remove 0.5 marks.
+
+2. If you find the answer is very good and good readabality etc, then give extra 0.5 marks.
+
+3. Any addition or deduction of marks can be done only 2 times.
+ 
+Thus after re-correction,
+
+s1 got bonus 0.5 and now the score is 97.5
+
+s2 got 2 times deduction and hence 1 mark reduced and score is 96
+
+s3 got 1 time deduction and new score is 96.5
+
+s4 remained with 97 because there was no changes.
+ 
+So, now the college NSS can declare the topper.
+
+What helped the college to do so?
+
+It is the decimal part of the number. And hence the decimal part of a number is not part of the, rather it is mentions the accuracy/precision of the number.
+[3:28 PM] Nithin Neelakanta Rao
+ARITHMETIC OPERATORS:
+
++  -  *  /  % 
+
+Additions in Python:  // **
+ 
+All the arithmetic operators are binary operators.
+
+The operator is always placed in between the operands, i.e. we must use the INFIX NOTATION syntax only.
+
+oprnd1 oprnd2 * (postfix notation)
+
++ oprnd1 prnd2  (prefix notation)
+
+oprnd1 - oprnd2 (Infix notation)
+
+The + and - operators have LESSER PRECEDENCE than * / and %
+
+This rule is called as BRODMAS RULE.
+
+Associtivity: The Arithmetic expression is always solved Left to Right.
+
+Arithmetic operators have Left to Right associtivity.
+
+x + y % z
+
+The modulo operation must happen 1st. Then the remainder number is added to x.
+
+However, the expression is read from left, that is we read 'x' first.
+
+Hence, all Arithmetic expressions are solved only after converting the Programmer/user written Infix expression into postfix and then the expression io solved.
+ 
+The i/p are numbers 
+
+The o/p is number
+[3:40 PM] Nithin Neelakanta Rao
+just 2 minutes plz
+[3:52 PM] Nithin Neelakanta Rao
+NOTE: The way integers are stored and the way floating point numbers are stored are different.
+ 
++ve integers are stored only by impleting the algorithm to convert decimal/octal/hexa-decimal numbers into binary.
+ 
+-ve numbers: The 2s compliment of the number is stored in memory.
+ 
+float/double: IEEE standard formula is used to store the number.
+ 
+And hence, when an Arithmetic operation happens, the Data Type of both the operands must be same. If not, one of the 2 operands is implicitly type casted.
+ 
+TYPE CASTING:
+
+Conversion of the DT of a value (usually a number) to another.
+
+Explicit Casting: When the programmer adds the code(syntax) for the cast to happen:
+
+var = '10.5'
+
+num = float(var) 
+
+Above is an example of Casting. Where we are converting a string into an integer number.
+
+var = 10.5
+
+num = int(var)
+
+Here we are explicitly casting float data into int data.
+
+Note that the decimal part (precision) is lost. Hence it is called as DOWN CAST.
+
+When ever we cast a lower sized data type value into a higher sized data type value, then it is called as UP CAST.
+ 
+var = 10.5
+
+num = var // This is implicit down cast
+ 
+w.r.t. C/C++/Java
+
+int num1 = 25;
+
+double d = num; // This is implicit up cast
+
+int num2 = int(d); // This explicit down cast
+[5:01 PM] Nithin Neelakanta Rao
+Python Language Characteristics:
+
+-> Python is an Interpreted language and not a compiled language.
+
+-> The code is taken by the interpretor, and each instruction is
+
+Compiled -> Interpreted -> Run
+
+-> In Python the DT of a variable is set dynamically and hence we need not mention the DT of a variable, rather start using it.
+
+-> In Python everything is an Object including the functions.
+
+-> Thus we can add properties to the object which are useful during development.
+
+-> Python syntax is very easy to use and the language is developed such that the code is very compact and highly abstract.
+
+-> The trade-off with Python is that, it is slower compared with Java during the runtime and very slow compared with C/C++ runtime.
+
+-> Python is very suitable for building Apps that are developed on RAD sdlc.
+
+-> Since it is easier and faster to develop in Python, lot of Modules are built for various domains and programming dimensions like Web App development (Django and Flask), for data analytics(science), we have numpy, pandas and for data visualization we have matplotlib etc. (List is very long)
+
+-> Python give us buint in data structures like:
+
+list: mutable and ordered (can be indexed)
+
+set: immutable and unordered (cannot be indexed)
+
+tuple: immutable and ordered
+
+dictionary: key-value pairs (mutable and ordered)
+
+Along with the above, string type is implemented and all these have good amount of methods to perform various operations.
+
+-> Python allows us to use the Ordered DS with negetive indexing.
+
+-> We can create a list of lists or lists with elements that are of different types such as set, dictionary, string etc.
+
+-> We have the list comprehension, map method and lambda expressions and also regex which allows us to develop code for complex problems.
 
