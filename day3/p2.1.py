@@ -1,4 +1,5 @@
 import math
+#Program to check a number is prime or not
 # Read the number N from the
 N = int(input("Enter a number: "))
 
