@@ -7,7 +7,7 @@ if gender == 'f':
     if age < 45:
         if occupation == 'w':
             if stay == 'h':
-                print("50 rs coupon on nykaa product")
+                print("100 rs coupon on nykaa product")
             elif stay == 'l':
                 print("50rs coupon on nykaa product")
         elif occupation == 's':
