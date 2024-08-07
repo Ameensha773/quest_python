@@ -18,14 +18,14 @@ if gender == 'f':
     elif age >= 45:
         if occupation == 'w':
             if stay == 'h':
-                print('25% Discount on all products')
+                print('75% Discount on groceries')
             elif stay == 'l':
-                print('25rs Discount on all products')
+                print('75rs Discount on groceries')
         elif occupation == 's':
             if stay == 'h':
-                print('100rs Discount on all products and books')
+                print('100rs Discount on groceries and books')
             elif stay == 'l':
-                print('25% Discount on all products and books')
+                print('25% Discount on groceries and books')
 elif gender == 'm':
     if age < 60:
         if occupation == 'w':
@@ -41,11 +41,11 @@ elif gender == 'm':
     elif age >= 60:
         if occupation == 'w':
             if stay == 'h':
-                print('25% Discount on all products')
+                print('25% Discount groceries')
             elif stay == 'l':
-                print('20% Discount on all products')
+                print('20% Discount on groceries')
         elif occupation == 's':
             if stay == 'h':
-                print('25% Discount on all products and books')
+                print('25% Discount on groceries and books')
             elif stay == 'l':
-                print('20% Discount on all products and books')
+                print('20% Discount on groceries and books')
