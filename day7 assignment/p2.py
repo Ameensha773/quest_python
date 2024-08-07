@@ -1,3 +1,5 @@
+ecommerce offers
+
 age = int(input("Enter age: "))
 gender = input("Enter gender: \nM. Male\nF. Female.").lower()
 occupation = input("Enter occupation :\n s student \n w working  ").lower()
